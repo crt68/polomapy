@@ -1,0 +1,14 @@
+**/__pycache__
+**/node_modules
+**/*.xml
+**/*.csv
+**/*.zip
+**/*.pyc
+**/*_grpc.py
+**/*_pb2.py
+**/.DS_Store
+**/data
+.vscode
+**/build
+**/dist
+**/*.egg-info
