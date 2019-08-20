@@ -183,7 +183,7 @@ class PolomaBuff:
 
 		def _send(_conn_notifier,_conns,_sent,_buffer):
 			_conns.value+=1
-			c = PolomaConn()
+			c = PolomaConn(*self._args, **self._kwargs)
 			is_nested(_buffer)
 			c.insert(self.table,_buffer)
 			c.commit()
